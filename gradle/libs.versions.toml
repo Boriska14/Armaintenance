@@ -23,6 +23,7 @@ androidx-camera-lifecycle = { module = "androidx.camera:camera-lifecycle", versi
 androidx-camera-view = { module = "androidx.camera:camera-view", version.ref = "cameraCore" }
 androidx-constraintlayout = { module = "androidx.constraintlayout:constraintlayout", version.ref = "constraintlayout" }
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-ui-viewbinding = { module = "androidx.compose.ui:ui-viewbinding" }
 core = { module = "com.google.ar:core", version.ref = "core" }
 core-v1410 = { module = "com.google.ar:core", version.ref = "coreVersion" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
