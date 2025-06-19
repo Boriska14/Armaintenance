@@ -170,6 +170,8 @@ class MainActivity : ComponentActivity() {
     }
 
     private fun setupARSession() {
+        this.gltfRenderer = GLTFRenderer(this,modelManager)
+
         try {
             arSession = Session(this).apply {
                 configure(
@@ -187,6 +189,7 @@ class MainActivity : ComponentActivity() {
             showError("ARCore unavailable: ${e.message}")
         } catch (e: Exception) {
             showError("Failed to setup AR session: ${e.message}")
+            print(e.message)
         }
     }
 
